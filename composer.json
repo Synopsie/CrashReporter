@@ -1,0 +1,26 @@
+{
+    "name": "synopsie/crash-reporter",
+    "description": "Ce plugin permet de signaler quand un crash survient sur votre serveur.",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "synopsie/olymp-permission": "^1.0",
+        "synopsie/neta-webhook": "^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.62"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "crash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dumont-Julien",
+            "email": "dumontj357@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
