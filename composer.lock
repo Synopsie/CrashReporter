@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e1b822f093b060d3c13bbf32074a249",
+    "content-hash": "e39ba37cc7a759389ea23563e8ff263a",
     "packages": [
         {
             "name": "synopsie/neta-webhook",
@@ -101,6 +101,50 @@
                 "source": "https://github.com/Synopsie/Olymp-Permisison/tree/v1.0.1"
             },
             "time": "2024-07-30T20:42:25+00:00"
+        },
+        {
+            "name": "synopsie/sofia-updater",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Synopsie/Sofia-Updater.git",
+                "reference": "843f78c7a862fe4f1022de4b83d40332845c2b48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Synopsie/Sofia-Updater/zipball/843f78c7a862fe4f1022de4b83d40332845c2b48",
+                "reference": "843f78c7a862fe4f1022de4b83d40332845c2b48",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.61",
+                "pocketmine/pocketmine-mp": "^5.17"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sofia\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dumont-Julien",
+                    "email": "dumontj357@gmail.com"
+                }
+            ],
+            "description": "Sofia-Updater est une api permettant à un plugin de vérifier si une nouvelle release est disponible",
+            "support": {
+                "issues": "https://github.com/Synopsie/Sofia-Updater/issues",
+                "source": "https://github.com/Synopsie/Sofia-Updater/tree/v1.2.0"
+            },
+            "time": "2024-08-06T20:07:53+00:00"
         }
     ],
     "packages-dev": [

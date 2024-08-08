@@ -26,6 +26,7 @@ use InvalidArgumentException;
 use olymp\PermissionManager;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
+use sofia\Updater;
 use Throwable;
 use function count;
 use function explode;
@@ -46,6 +47,8 @@ class Main extends PluginBase {
 		require $this->getFile() . 'vendor/autoload.php';
 
 		$config = $this->getConfig();
+
+        Updater::checkUpdate('CrashReporter', $this->getDescription()->getVersion(), 'Synopsie', 'CrashReporter');
 
 		if($config->get('enable.command.crash')) {
 			$permissionManager = new PermissionManager();
