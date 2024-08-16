@@ -131,7 +131,7 @@ Ce plugin permet de signaler quand un crash survient sur votre serveur.
 
 @author Synopsie
 @link https://github.com/Synopsie
-@version 1.0.0
+@version 1.1.0
 
 BODY,
             'location' => 'after_open'
