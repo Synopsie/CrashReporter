@@ -59,7 +59,7 @@ class CrashDumpWebhook {
 		$line = $crashDump['error']['line'];
 		$code = $crashDump['code'];
 		foreach ($code as $key => $value) {
-			$code[$key] = ($key === $line ? ">" : " ") . "[" . $key . "] " . $code;
+			$code[$key] = ($key === $line ? ">" : " ") . "[" . $key . "] " . $value;
 		}
 		$codeString = "```php\n";
 		$stringEnd  = "\n```";
